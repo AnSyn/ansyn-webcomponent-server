@@ -2,7 +2,7 @@ const express = require('express');
 const {mergeConfig} = require("./merge");
 const app = express();
 const cors = require('cors');
-const port = 3000;
+const port = 8888;
 
 app.use(express.json());
 app.use(cors());
