@@ -5,7 +5,6 @@ const mergeWith  = require('lodash.mergeWith');
 
 const appConfigFile = './tmp/assets/config/app.config.json';
 const mergeConfigCustom = (sectionInConfig, mergeChanges) => {
-    console.log({sectionInConfig, mergeChanges});
     if (Array.isArray(sectionInConfig)) {
         return mergeChanges
     }
