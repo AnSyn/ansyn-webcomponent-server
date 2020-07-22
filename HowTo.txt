@@ -1,0 +1,31 @@
+How to use ansyn component inside your app.
+Notes:
+1. custom-ansyn is dispatch a Ready custom-event.
+2. you must give to custom-anysn or his wrapper some height.
+3. custom-ansyn is put the ansynApi inside the global window object you can use ansynApi.someAnsynApiFunction anywhere in the app.
+
+React App:
+1. copy the folder content inside your public folder.
+2. in index.html add <script src="%PUBLIC_URL%/custom-ansyn.min.js"
+3. you can use <custom-ansyn> tag inside your app.
+
+Angular App:
+1. copy the folder content into new folder inside your root project folder.
+2. inside app.module.ts add CUSTOM_ELEMENT_SCHEMA to schemas array.
+3. inside angular.json add to your project assets array:
+    { "input": "<name_of_folder_from_step1>/assets",
+        "output": "/assets"
+        },
+        {
+            "input": "<name_of_folder_from_step1>/res",
+             "output": "/res"
+        }
+4. inside angular.json add to your project scripts array:
+    "element/custom-ansyn.min.js"
+5. you can use <custom-ansyn> tag inside your app.
+
+Standalone
+1. copy the folder content to your root project.
+2. in index.html add <script src="%PUBLIC_URL%/custom-ansyn.min.js"
+
+Good Luck.
