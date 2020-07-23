@@ -24,7 +24,7 @@ Angular App:
     "element/custom-ansyn.min.js"
 5. you can use <custom-ansyn> tag inside your app.
 
-Standalone
+Html
 1. copy the folder content to your root project.
 2. in index.html add <script src="%PUBLIC_URL%/custom-ansyn.min.js"
 
