@@ -6,26 +6,28 @@ Notes:
 
 React App:
 1. copy the folder content inside your public folder.
-2. in index.html add <script src="%PUBLIC_URL%/custom-ansyn.min.js"
-3. you can use <custom-ansyn> tag inside your app.
+2. add <script src="%PUBLIC_URL%/custom-ansyn.min.js"></script>in your index.html
+3. you can use <custom-ansyn> anywhere in your app.
 
 Angular App:
 1. copy the folder content into new folder inside your root project folder.
-2. inside app.module.ts add CUSTOM_ELEMENT_SCHEMA to schemas array.
+2. add schemas: [CUSTOM_ELEMENT_SCHEMA] in your app.module.ts.
 3. inside angular.json add to your project assets array:
-    { "input": "<name_of_folder_from_step1>/assets",
-        "output": "/assets"
-        },
-        {
-            "input": "<name_of_folder_from_step1>/res",
-             "output": "/res"
-        }
+    {
+      "input": "<name_of_folder_from_step1>/assets",
+      "output": "/assets"
+    },
+    {
+      "input": "<name_of_folder_from_step1>/res",
+      "output": "/res"
+    }
 4. inside angular.json add to your project scripts array:
-    "element/custom-ansyn.min.js"
-5. you can use <custom-ansyn> tag inside your app.
+    "<name_of_folder_from_step1>/custom-ansyn.min.js"
+5. you can use <custom-ansyn> anywhere in your app.
 
 Html
 1. copy the folder content to your root project.
-2. in index.html add script tag with src="custom-ansyn.min.js"
+2. in index.html add a <script> src="custom-ansyn.min.js"</script>
+3. you can use <custom-ansyn> anywhere in your app.
 
 Good Luck.
