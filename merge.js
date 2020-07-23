@@ -13,6 +13,7 @@ const mergeConfigCustom = (sectionInConfig, mergeChanges) => {
 async function mergeConfig(mergeChanges) {
     await fs.ensureDir('./tmp');
     await fs.copy('./element', './tmp');
+    await fs.copy('./HowTo.txt', './tmp/HowTo.txt');
     const defaultConfig = await fs.readJson(appConfigFile);
     const mergedConfig = mergeWith(defaultConfig, mergeChanges, mergeConfigCustom);
     await fs.writeJson(appConfigFile, mergedConfig);
@@ -24,6 +25,7 @@ async function mergeConfig(mergeChanges) {
         [
             'assets',
             'res',
+            'HowTo.txt',
             'custom-ansyn.min.js'
         ]
     )

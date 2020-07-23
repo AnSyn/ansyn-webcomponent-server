@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d88150-2211-425b-befe-43a736208e4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/merge.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <updated>1595247446921</updated>
       <workItem from="1595247448071" duration="19318000" />
       <workItem from="1595422852859" duration="5164000" />
-      <workItem from="1595490136989" duration="6585000" />
+      <workItem from="1595490136989" duration="7256000" />
     </task>
     <servers />
   </component>
@@ -84,9 +86,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595325354960" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595315184092">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595515942908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595315184092" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595515942908" />
   </component>
 </project>
